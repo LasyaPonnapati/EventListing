@@ -72,8 +72,8 @@ const Body = () => {
             : currentPageItems.map((event) => {
                 return <div id="event-card">
                     <img src="https://img.freepik.com/premium-photo/night-lights_31748-27.jpg?semt=ais_hybrid&w=740" alt="event-img" height='200px' width='200px'/>
-                    <div style={{display:"flex", justifyContent:'space-between'}} id="event-name-container">
-                    <p style={{whiteSpace:'nowrap',overflow:'hidden', textOverflow:'ellipsis'}}>{event.eventName}</p>
+                    <div id="event-name-container">
+                    <p>{event.eventName}</p>
                     <p>FREE</p>
                     </div>
                     <p id="event-description">Lorem ipsum dolor sit amet, consect adipi elit.

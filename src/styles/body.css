@@ -37,6 +37,9 @@ width:330px;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Source Code Pro', monospace;
+    whiteSpace:'nowrap';
+    overflow:'hidden';
+    textOverflow:'ellipsis';
 }
 
 #event-name-container > :last-child {
